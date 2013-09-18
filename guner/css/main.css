@@ -1,0 +1,361 @@
+body {
+	background:url(../img/bg.jpg) 100% 100% no-repeat;
+	background-size:100% auto;
+}
+
+.b-container {
+	width:1232px;
+	margin:0 auto;
+	position:relative;
+}
+
+.b-logo {
+	position:relative;
+	color:#6f6f6f;
+	font-size:24px;
+	padding-top:37px;
+	text-indent:156px;
+	display:block
+}
+
+	.b-logo__img {
+		background:url(../img/logo.png) no-repeat;
+		width:146px;
+		height:43px;
+		display:block;
+		position:absolute;
+		left:0;
+		top:23px;
+	}
+
+
+.b-nav {
+	position:absolute;
+	right:0;
+	top:34px;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+	.b-nav__li {
+		float:left;
+		padding-right:17px;
+		padding-left:17px;
+		border-right:1px solid #b5b5b5;
+	}
+	
+		.b-nav__li.m-first { padding-left:0; }
+		.b-nav__li.m-last { padding-right:0; border-right:0 }
+	
+	.b-nav__link {
+		line-height:22px;
+		font-size:24px;
+		color:#818181;	
+	}
+		
+		.b-nav__link.m-home {
+			width:25px;
+			height:24px;
+			display:block;
+			background:url(../img/home.png) no-repeat;
+			position:relative;
+			top:-3px;
+		}
+		
+		.b-nav__link.m-red { color:#da251c; }
+		
+		.b-nav__link.m-email {
+			width:41px;
+			height:22px;
+			background:url(../img/mail.png) no-repeat;
+			display:block;
+		}
+	
+.b-column.m-left {
+	float:left;
+	width:669px;
+}
+
+.b-column.m-right {
+	float:left;
+	width:563px;
+}
+
+.b-logo-guner {
+	width:350px;
+	height:151px;
+	background:url(../img/logo-guner.png) no-repeat;
+	display:block;
+	margin-top:35px;
+	float:left;
+}
+
+.b-guner-sahin {
+	width:163px;
+	height:164px;
+	background:url(../img/guner-sahin.png) no-repeat;
+	display:block;
+	float:left;
+	margin-top:28px;
+	margin-left:22px;
+	position:relative;
+	z-index:1000
+}
+
+.b-illustration {
+	background: url("../img/illustration.png") no-repeat scroll 0 0 / 95% auto transparent;
+	display: block;
+	height: 400px;
+	left: 5px;
+	margin-left: 5px;
+	margin-top: -32px;
+	width: 632px;
+	z-index: 1001;
+	position:relative
+}
+
+.b-slogan {
+	border-bottom: 2px dotted #B5B5B5;
+	color: #424242;
+	font-size: 28px;
+	font-style: italic;
+	font-weight: 100;
+	line-height: 30px;
+	margin-bottom: 10px;
+	margin-top: 35px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.b-list {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.b-list__li {
+	color:#484848;
+	font-size:26px;
+	text-indent:22px;
+	line-height:34px;
+	background:url(../img/dot.png) 0 50% no-repeat;
+}
+
+	.b-list__li.m-title {
+		font-size:32px;
+		text-indent:0;
+		background:none;
+	}
+	
+.b-button {
+	width:417px;
+	height:102px;
+	background:url(../img/button.png) no-repeat;
+	display:block;
+	margin:20px auto 0 60px;
+	text-align:center;
+	line-height:102px;
+	color:#fff !important;
+	font-size:26px;
+	text-shadow:0 -1px 2px #444;
+	text-transform:uppercase;
+	text-decoration:none !important;
+	font-weight:700;
+}
+
+
+/* INTRO PAGE */
+body.m-intro {
+	background-image:url(../img/bg-colored.jpg);
+}
+
+.b-intro {
+	margin-top:38px;
+	position:relative;
+}
+	
+	.b-intro__photo {
+		background:url(../img/guner-sahin-intro.png) no-repeat;
+		width:481px;
+		height:524px;
+		display:block;
+		top:15px;
+		position:relative;
+	}
+
+	.b-intro__logo {
+		background: url("../img/logo-guner-intro.png") no-repeat scroll 0 0 transparent;
+		display: block;
+		height: 334px;
+		left: 490px;
+		position: absolute;
+		top: 60px;
+		width: 803px;
+	}
+	
+	.b-intro__text {
+		color: #6F6F6F;
+		font-size: 30px;
+		font-style: italic;
+		font-weight: 100;
+		left: 560px;
+		line-height: 34px;
+		position: absolute;
+		top: 197px;
+	}
+	
+	.b-intro__quote {
+		width:30px;
+		height:25px;
+		position:absolute;
+	}
+		
+		.b-intro__quote.m-top {
+			background-image:url(../img/quote-top-right.png);
+			top:0px;
+			right:-36px;
+		}
+		
+		.b-intro__quote.m-bottom {
+			background-image:url(../img/quote-bottom-left.png);
+			bottom:0px;
+			left:-36px;
+		}
+		
+.b-gallery {
+	left: 15px;
+	overflow: hidden;
+	padding-top: 10px;
+	position: relative;
+	top: -15px;
+	padding-bottom:65px;
+}
+
+.b-gallery__bottom-shadow {
+	background: url("../img/photo-shadow.png") no-repeat scroll 0 0 / 100% 100% transparent;
+	bottom: -62px;
+	height: 47px;
+	left: -45px;
+	position: absolute;
+	width: 125%;
+}
+
+.b-gallery__text {
+	display: none;
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+	bottom: 0;
+	color: #DA251C;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 30px;
+	margin: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.active .b-gallery__text { display:block; }
+
+.b-gallery__image-wrapper {
+	background: none repeat scroll 0 0 #FFFFFF;
+	height: 100%;
+	left: 0;
+	/* overflow: hidden; */
+	position: absolute;
+	top: 0;
+	width: 100%;
+	outline:1px solid red
+}
+
+/* .active .b-gallery__image-wrapper { height:330px; } */
+
+.b-gallery__image-wrapper img{ height:auto !important }
+	
+/* Media Queries */
+@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 1140px) {}
+
+.b-popup-link {
+	color: #939393;
+	font-size: 30px;
+	font-style: italic;
+	left: 555px;
+	position: absolute;
+	top: 200px;
+}
+
+.b-popup {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:999;
+}
+.b-popup__overlay {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:#999;
+	opacity:0.5;
+	z-index:1;
+}
+.b-popup__content {
+	position:absolute;
+	z-index:1001;
+    padding:15px;
+    box-shadow: 0 0 5px #444444;
+    width: 550px;
+	overflow:auto;
+	background-color:#fff;
+	box-shadow:0 0 2px #000;
+	
+	top:50%;
+	left:50%;
+	margin:-130px 0 0 -275px;
+	color: #6F6F6F;
+	line-height:20px
+}
+
+.b-popup__content-internal {
+	outline:1px solid red;
+	height: 330px;
+	padding:5px
+}
+
+.b-popup__content p { padding:0 0 0 20px; margin:0; }
+
+.b-popup__content ul { padding-left:20px; list-style:none }
+.b-popup__content ul li span {
+	display:inline-block;
+	width:110px
+}
+
+.b-popup__cross {
+	width:25px;
+	height:25px;
+	position:absolute;
+	background:url(../img/cross.png) 50% 50% no-repeat;
+	right:16px;
+	top:16px;
+	opacity:0.5;
+}
+
+
+.b-copy {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+  bottom: 20px;
+  color: #545454;
+  display: inline-block;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 16px;
+  font-weight:700px;
+  padding:1px 
+}

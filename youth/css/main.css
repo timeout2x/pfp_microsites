@@ -1,0 +1,625 @@
+.b-container {
+	width:1220px;
+	margin:0 auto;
+	position:relative;
+}
+
+.b-container.m-content {
+	min-height: 100%;
+	margin-bottom: -92px; 
+}
+
+.b-container.m-content:after {
+	content: "";
+	display: block;
+	height: 92px;
+}
+
+.b-content {
+	background-image:url(../img/page-bg.jpg);
+	background-position:0 152px;
+	background-repeat:no-repeat;
+	padding-top:152px;
+	min-height:486px;
+}
+
+/* b-content.m-internal { background-image:url(../img/page-bg-transparent.jpg); }*/
+.b-content.m-internal { background-image:none }
+.b-content.m-internal.m-no-bg { background-image:none; }
+
+.b-content.m-internal.m-earn {
+	background-image:url(../img/earn-rewards-bg.png);
+	background-position:528px 224px
+}
+
+.b-logo {
+	width:299px;
+	height:107px;
+	background:url(../img/logo.png) no-repeat;
+	position:absolute;
+	top:35px;
+	left:0;
+}
+
+.b-menu {
+	width:707px;
+	height:88px;
+	background:url(../img/menu-grad.png) repeat-x;
+	position:absolute;
+	top:0;
+	right:0;
+	border:3px solid #ffc04c;
+	padding:0;
+	margin:0;
+	list-style:none;
+	/*overflow:hidden;*/
+	border-radius:0 0 10px 10px;
+	border-top:0;
+}
+
+.b-menu__li {
+	border-right:1px solid #ffdba0;
+	border-left:1px solid #e49005;
+	float:left;
+	height:88px;
+}
+
+.b-menu__li.m-1 { border-radius:0 0 0 8px; }
+
+.b-menu__li.m-5 { border-radius:0 0 8px 0; }
+
+.b-menu__link {
+	display:block;
+	color:#854f03;
+	text-shadow:1px 1px 1px #fff;
+	font-size:24px;
+	line-height:88px;
+	height:88px;
+	text-align:center;
+	text-decoration:none !important
+}
+
+.b-menu__link:visited { color:#854f03; }
+
+.b-menu__li.m-1 { width:207px; border-left:0; }
+.b-menu__li.m-2 { width:135px; }
+.b-menu__li.m-3 { width:152px; }
+.b-menu__li.m-4 { width:105px; }
+.b-menu__li.m-5 { width:100px; border-right:0; }
+
+.b-menu__li.m-active,
+.b-menu__li:hover { background-image:url(../img/menu-grad-active.png); }
+	.m-active .b-menu__link,
+	.b-menu__link:hover { color:#f4db97; text-shadow:1px 1px 1px #444;}
+
+.b-menu__li.m-active.m-brown { background-image:url(../img/menu-grad-active-brown.png); }
+	.m-active.m-brown .b-menu__link { color:#ffc14d }
+	
+.m-email .b-menu__link { background:url(../img/mail.png) 50% 50% no-repeat; }
+
+.b-footer {
+	height:92px;
+	background:url(../img/footer-grad.png) repeat-x;
+}
+
+.b-footer__nav {
+	text-align:center;
+	color:#854f03;
+	font-size:18px;
+	padding:22px 0 0;
+	margin:0;
+}
+	.b-footer__nav a {
+		margin-right:30px;
+		color:#854f03;
+	}
+
+	.b-footer__div { padding-right:30px; }
+	
+.b-footer__copy {
+	color:#854f03;
+	font-size:18px;
+	font-weight:700;
+	text-align:center;
+	padding:18px 0 0 0;
+	margin:0;
+}
+	
+/* intro */	
+.b-intro-image {
+	float:right;
+	margin-top:-30px;
+}
+
+/* start */
+.b-start-image {
+	margin:0 auto;
+	padding:10px 50px 50px;
+	display:block;
+}
+
+/* how it works */
+.b-hiw {
+	background: url("../img/how-it-works-diagramm-2.png") no-repeat scroll 0 0 transparent;
+	left: 101px;
+	min-height: 498px;
+	position: relative;
+	top: -6px;
+}
+
+.b-hiw__text {
+	color: #007218;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28px;
+	position: absolute;
+	text-align: center;
+	margin:0;
+}
+
+	.b-hiw__text.m-orange { color:#fea400 }
+	.b-hiw__text.m-brown { color:#74521f }
+	
+	.b-hiw__text.m-1 {
+		left: -32px;
+		top: 162px;
+	}
+	
+	.b-hiw__text.m-2 {
+		left: 52px;
+		top: 306px;
+	}
+	
+	.b-hiw__text.m-3 {
+		left: 264px;
+		top: 151px;
+	}
+	
+	.b-hiw__text.m-4 {
+		left: 492px;
+		top: 77px;
+	}
+	
+	.b-hiw__text.m-5 {
+		left: 604px;
+		line-height: 28px;
+		top: 226px;
+	}
+	
+	.b-hiw__text.m-6 {
+		left: 930px;
+		text-align: left;
+		top: 61px;
+	}
+	
+	.b-hiw__text.m-7 {
+		left: 169px;
+		top: 379px;
+	}
+	
+	.b-hiw__text.m-8 {
+		font-size: 30px;
+		left: 923px;
+		line-height: 34px;
+		top: 366px;
+	}
+	
+/* tips */
+.b-tips-header {
+	height:90px;
+	background:#7ad68d;
+	display:block;
+	position:absolute;
+	left:0;
+	top:173px;
+	width:100%;
+	z-index:1;
+}
+
+.b-tips {
+	padding-top:21px;
+	position:relative;
+	z-index:2
+}
+
+.b-tips__list {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+	
+.b-tips__li {
+	border-right: 1px dotted #007218;
+	float: left;
+	margin-top: 90px;
+	min-height: 354px;
+	position: relative;
+	width: 405px;
+}
+	
+	.b-tips__li.m-4 { border-right: none; }
+	
+.b-tips__title {
+	color: #007419;
+	font-size: 20px;
+	height: 80px;
+	left: 0;
+	line-height: 22px;
+	margin: 0;
+	padding: 10px 0 0;
+	position: absolute;
+	text-align: center;
+	top: -90px;
+	width: 100%;
+}
+
+.b-tips__diagramm {
+	background: url("../img/tips-share-diagram.png") no-repeat scroll 25px 50px transparent;
+	height: 254px;
+	padding-left: 25px;
+	padding-top: 50px;
+	position: relative;
+	font-weight:700;
+}
+
+.b-tips__diagramm-label {
+	color:#4c4c4c;
+	font-size:28px;
+	position:absolute;
+	margin:0;
+}
+
+.b-tips__diagramm-label.m-1 {
+	left: 8px;
+	top: 180px;
+}
+
+.b-tips__diagramm-label.m-2 {
+	left: 138px;
+	top: 104px;
+}
+
+.b-tips__diagramm-label.m-3 {
+	right: 30px;
+	top: 173px;
+}
+
+.b-tips__diagramm-label.m-4 {
+	left: 206px;
+	top: 315px;
+}
+
+.b-tips__diagramm-label.m-5 {
+	left: 21px;
+	top: 315px;
+}
+
+.b-tips__examples-list {
+	list-style:none;
+	padding:38px 0 0 45px;
+	margin:0;
+	color:#222222;
+	font-size:22px;
+	line-height:26px;
+}
+
+.b-tips__examples-li { margin-bottom:20px }
+
+.b-tips__share-with {
+	width:348px;
+	height:261px;
+	background:url(../img/tips-diagramm-2.png) 32px 26px no-repeat;
+	padding-top:26px;
+	padding-left:32px;
+	position:relative
+}
+
+.b-tips__share-with-text {
+	color:#4c4c4c;
+	position:absolute;
+	font-size:24px;
+	margin:0;
+	text-align:center;
+	line-height:24px;
+	font-weight:700
+}
+
+.b-tips__share-with-text.m-1 {
+	left: 44px;
+	top: 130px;
+}
+.b-tips__share-with-text.m-2 {
+	left: 137px;
+	top: 145px;
+}
+.b-tips__share-with-text.m-3 {
+	left: 285px;
+	top: 130px;
+}
+.b-tips__share-with-text.m-4 {
+	left: 63px;
+	top: 292px;
+}
+.b-tips__share-with-text.m-5 {
+	left: 232px;
+	top: 292px;
+}
+
+.b-tips__certificate {
+	padding-top:55px;
+	margin:0 auto;
+	display:block;
+}
+
+.b-tips__arrow {
+	width:69px;
+	height:19px;
+	background:url(../img/tips-arrow.png);
+	display:block;
+	position:absolute;
+	right:-15px;
+	top:40px;
+}
+
+/* schedule */
+.b-schedule {
+	height:199px;
+	width:1219px;
+	margin-top:82px;
+	background:url(../img/schedule-timetable.png) no-repeat
+}
+
+.b-schedule__point {
+	background:url(../img/clock.png) 0 207px no-repeat;
+	min-height:78px;
+	padding-left:40px;
+	color:#414141;
+	font-size:24px;
+	line-height:28px;
+	float:left;
+	padding-top:205px;
+}
+	.b-schedule__point.m-1 { margin-right:440px; }
+	.b-schedule__point.m-2 { margin-right:130px; }
+
+.b-earn {
+	padding-bottom:20px;
+	overflow:hidden;
+	padding-top:20px;
+	position:relative
+}
+	
+.b-earn.m-no-top-margin { padding-top:0; }
+	
+.b-earn-link {
+	background: url("../img/earn-points-2.png") repeat scroll 0 0 transparent;
+	color: #72511F !important;
+	font-size: 22px;
+	font-weight: 700;
+	height: 108px;
+	line-height: 52px;
+	position: absolute;
+	right: -3px;
+	text-indent: 42px;
+	top: 108px;
+	width: 333px;
+	z-index: 1;
+}
+
+.b-earn__title {
+	color:#007118;
+	font-size:22px;
+	text-align:center;
+	font-weight:100;
+	margin:15px 0;
+}
+
+.b-earn__highlight {
+	font-size:25px;
+	font-weight:700;
+	color:#6e5021;
+}
+
+.b-earn__list {
+	list-style-position:outside;
+	margin:22px 0 0;
+	color:#392403;
+	padding:20px 0 0 25px;
+	font-size:22px;
+	line-height:27px;
+	height:308px;
+	background:url(../img/earn-list-bg.png);
+	width:715px;
+	border:3px solid #ffc04c;
+	border-radius:28px
+}
+
+.b-earn__list-li { padding-bottom:5px; }
+
+.b-earn__subtitle {
+	color:#007118;
+	font-size:22px;
+	font-weight:400;
+	text-align:left;
+	position:relative;
+	padding-left:12px;
+	margin:0 0 15px;
+	line-height:25px;
+	padding-left:50px
+}
+
+.b-earn__subtitle.m-2 { margin-top:7px }
+
+/*.b-earn__subtitle strong { 
+	color:#6e5021;
+	text-transform:uppercase;
+	font-size:25px;
+}*/
+
+.b-earn__column { float:left; }
+.b-earn__column.m-left { width:725px; }
+.b-earn__column.m-right { width:432px; float:right }
+
+.b-earn__sign {
+	background: url("../img/!.png") repeat scroll 0 0 transparent;
+	color: #705021;
+	display: inline-block;
+	font-size: 34px;
+	font-weight: 700;
+	height: 42px;
+	left: 0;
+	line-height: 42px;
+	position: absolute;
+	top: 50%;
+	margin-top:-21px;
+	vertical-align: middle;
+	width: 43px;
+	text-align:center;
+}
+.b-earn__sign.m-2 { margin-top:-15px }
+
+.b-earn__text {
+	color: #007118;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	margin: 10px 0 0;
+}
+
+.b-earn__options { margin-top:-14px; }
+
+.b-earn__tips {
+	background: url("../img/tips-bg.png") no-repeat scroll 0 0 transparent;
+	color: #FFFFFF !important;
+	font-size: 12px;
+	height: 32px;
+	left: 289px;
+	line-height: 12px;
+	padding-left: 10px;
+	padding-top: 3px;
+	position: absolute;
+	text-align: center;
+	top: 89px;
+	width: 190px;
+}
+
+.b-earn__video {
+	width:437px;
+	height:54px;
+	background:url(../img/video-button.png) no-repeat;
+	display:block;
+	line-height:54px;
+	text-indent:65px;
+	color:#854f03 !important;
+	font-size:18px;
+	text-shadow:1px 1px 1px #fff;
+	margin-bottom:35px;
+	font-weight:700;
+	position:relative;
+}
+
+.b-earn__video.m-less-margin { margin-bottom:18px }
+
+.b-earn__video  span {
+	position:absolute;
+	top:50%;
+	left:22px
+}
+
+.b-earn__video.m-youtube { margin-top:27px; }
+.b-earn__video.m-youtube.m-less-margin { margin-top:16px }
+
+.b-earn__video.m-youtube span {
+	background:url(../img/youtube.png);
+	width:32px;
+	height:32px;
+	margin-top:-16px;
+}
+.b-earn__video.m-pc span {
+	background:url(../img/pc.png);
+	width:26px;
+	height:26px;
+	margin-top:-12px;
+}
+.b-earn__video.m-mobile span {
+	background:url(../img/mobile.png);
+	width:19px;
+	height:32px;
+	left:26px;
+	margin-top:-16px;
+}
+
+.b-earn__video.m-cam span {
+	background:url(../img/cam.png);
+	width:37px;
+	height:19px;
+	left:18px;
+	margin-top:-9px;
+}
+
+/* COLORBOX */
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{  background:rgba(0, 0, 0, 0.6); }
+#colorbox{outline:0;}
+    #cboxTopLeft{width:21px; height:21px; background:url(../img/colorbox/controls.png) no-repeat -101px 0;}
+    #cboxTopRight{width:21px; height:21px; background:url(../img/colorbox/controls.png) no-repeat -130px 0;}
+    #cboxBottomLeft{width:21px; height:21px; background:url(../img/colorbox/controls.png) no-repeat -101px -29px;}
+    #cboxBottomRight{width:21px; height:21px; background:url(../img/colorbox/controls.png) no-repeat -130px -29px;}
+    #cboxMiddleLeft{width:21px; background:url(../img/colorbox/controls.png) left top repeat-y;}
+    #cboxMiddleRight{width:21px; background:url(../img/colorbox/controls.png) right top repeat-y;}
+    #cboxTopCenter{height:21px; background:url(../img/colorbox/border.png) 0 0 repeat-x;}
+    #cboxBottomCenter{height:21px; background:url(../img/colorbox/border.png) 0 -29px repeat-x;}
+    #cboxContent{background:#fff; overflow:hidden;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{margin-bottom:28px;}
+        #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxLoadingOverlay{background:url(../img/colorbox/loading_background.png) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(../img/colorbox/loading.gif) no-repeat center center;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+
+        #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+        #cboxPrevious{position:absolute; bottom:0; left:0; background:url(../img/colorbox/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxPrevious:hover{background-position:-75px -25px;}
+        #cboxNext{position:absolute; bottom:0; left:27px; background:url(../img/colorbox/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxNext:hover{background-position:-50px -25px;}
+        #cboxClose{position:absolute; bottom:0; right:0; background:url(../img/colorbox/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxClose:hover{background-position:-25px -25px;}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
