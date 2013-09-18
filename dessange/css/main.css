@@ -105,7 +105,7 @@
 
 .b-footer__nav {
 	color: #FFFFFF;
-	font-size: 14px;
+	font-size: 9px;
 	left: 0;
 	line-height: 38px;
 	margin: 0;
@@ -141,13 +141,13 @@
 .b-footer__copy.m-email a { color:#fff }
 
 .b-page-bg {
-	position:absolute;
-	z-index:1;
-	width:430px;
-	height:618px;
-	background:url(../img/page-bg.jpg) no-repeat;
-	left:-43px;
-	top:0
+	background: url("../img/page-bg.jpg") no-repeat scroll 0 0 transparent;
+	height: 618px;
+	left: -644px;
+	position: absolute;
+	top: 0;
+	width: 1022px;
+	z-index: 1;
 }
 
 /* INTRO page */
@@ -157,6 +157,13 @@
 	left: -44px;
 }
 .b-intro__illustration {}
+.b-intro__bg { 
+	background: url("../img/repeat-bg.jpg") repeat-x scroll 100% 0 transparent;
+	height: 583px;
+	left: -600px;
+	position: absolute;
+	width: 1022px;
+}
 
 .b-intro__text {
 	position: absolute;
@@ -190,6 +197,19 @@
 	margin:60px auto 0;
 	text-decoration:none !important
 }
+
+.b-intro__button.m-small  {
+	background-size: 250px auto;
+	font-size: 19px;
+	height: 55px;
+	left: 50%;
+	line-height: 55px;
+	margin-left: -125px;
+	position: absolute;
+	top: 450px;
+	width: 250px;
+}
+
 
 /* HOW IT WORKS */
 .b-hiw {
@@ -446,6 +466,7 @@
 	position: relative;
 	padding-left: 155px;
 	height: 107px;
+	width:400px
 }
 .b-amb__type-logo {
 	width:136px;

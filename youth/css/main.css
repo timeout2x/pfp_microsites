@@ -6,13 +6,13 @@
 
 .b-container.m-content {
 	min-height: 100%;
-	margin-bottom: -92px; 
+	margin-bottom: -48px; 
 }
 
 .b-container.m-content:after {
 	content: "";
 	display: block;
-	height: 92px;
+	height: 48px;
 }
 
 .b-content {
@@ -98,7 +98,7 @@
 .m-email .b-menu__link { background:url(../img/mail.png) 50% 50% no-repeat; }
 
 .b-footer {
-	height:92px;
+	height:48px;
 	background:url(../img/footer-grad.png) repeat-x;
 }
 
@@ -106,23 +106,32 @@
 	text-align:center;
 	color:#854f03;
 	font-size:18px;
-	padding:22px 0 0;
-	margin:0;
+	left: 0;
+	line-height: 48px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	top: 0;
 }
 	.b-footer__nav a {
-		margin-right:30px;
+		margin-right:10px;
 		color:#854f03;
 	}
 
-	.b-footer__div { padding-right:30px; }
+	.b-footer__div { padding-right:10px; }
 	
 .b-footer__copy {
 	color:#854f03;
 	font-size:18px;
 	font-weight:700;
-	text-align:center;
-	padding:18px 0 0 0;
-	margin:0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	line-height:48px
 }
 	
 /* intro */	
