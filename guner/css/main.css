@@ -104,7 +104,8 @@ body {
 }
 
 .b-illustration {
-	background: url("../img/illustration.png") no-repeat scroll 0 0 / 95% auto transparent;
+	background: url("../img/illustration.png") no-repeat scroll 0 0  transparent;
+	background-size:95% auto;
 	display: block;
 	height: 400px;
 	left: 5px;
@@ -112,7 +113,8 @@ body {
 	margin-top: -32px;
 	width: 632px;
 	z-index: 1001;
-	position:relative
+	position:relative;
+	display:block;
 }
 
 .b-slogan {
