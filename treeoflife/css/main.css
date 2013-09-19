@@ -166,6 +166,8 @@ body {
 	font-family: fontinregular;
 	float: left;
 	margin-right: 100px;
+	cursor:pointer;
+	text-decoration:none !important
 }
 
 	.b-button.m-2 {
